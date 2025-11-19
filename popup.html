@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pinterest Downloader</title>
+    <style>
+        body {
+            background-color: #1e1e1e;
+            color: #ffffff;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            width: 300px;
+            padding: 20px;
+            user-select: none;
+        }
+
+        button {
+            background-color: #ec304b;
+            color: white;
+            border: none;
+            padding: 10px;
+            margin-top: 10px;
+            cursor: pointer;
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        button:hover {
+            background-color: #f17184;
+        }
+
+        p {
+            font-size: small;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Pin<span style="color: #ec304b;">board</span></h1>
+        <p id="status">Scanning images...</p>
+        <button id="download" style="display: none; font-weight: bold;">DOWNLOAD</button>
+        <p id="notes" style="display: none;">Page needs to load completely to work.
+            <br>
+            If you have a lot of pins, you can scroll down or use 🔍 to zoom out in order
+            for other pins to
+            load.
+        </p>
+        <label style="font-size: 10px;">Created with <span style="color: #f17184;">❤</span> by Max</label>
+    </div>
+    <script src="popup.js"></script>
+</body>
+
+</html>
