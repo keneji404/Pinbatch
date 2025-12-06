@@ -31,7 +31,7 @@ A pinterest batch downloader web extension for Firefox.
 
 ### Dev Notes
 
-I made this small project to help me batch download some of the art references I saved in Pinterest since the extensions I found are not available on Firefox or locked behind a paywall, although not perfect, it's get the job done pretty well.
+I made this small project to help me batch download some of the art references I saved in Pinterest since the extensions I found are not available on Firefox or locked behind a paywall, although not perfect, it gets the job done.
 
 ---
 
